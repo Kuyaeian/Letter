@@ -85,11 +85,8 @@
 
     /* ── Main scene container ── */
     .scene-wrapper {
-      position: relative;
-      z-index: 10;
-      width: min(480px, 92vw);
+      width: clamp(260px, 70vw, 600px);
       aspect-ratio: 480 / 620;
-      animation: fadeUp 1.4s ease 0.2s both;
     }
 
     /* ── Floating ambient sparkles (CSS only) ── */
